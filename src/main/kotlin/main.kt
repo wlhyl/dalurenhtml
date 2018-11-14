@@ -197,7 +197,7 @@ fun paiPan() {
             </tr>""")
             tr.appendTo(table)
         }
-        table.append("<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>")
+        table.append("""<tr height="10px"><td></td><td></td><td></td><td></td><td></td><td></td></tr>""")
         val siKe="""
             <tr>
                 <td></td>
@@ -224,7 +224,7 @@ fun paiPan() {
                 <td></td>
             </tr>"""
         table.append(siKe)
-        table.append("<tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>")
+        table.append("""<tr height="10px"><td></td><td></td><td></td><td></td><td></td><td></td></tr>""")
         val tp="""
             <tr>
                 <td></td>
